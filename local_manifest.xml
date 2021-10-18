@@ -11,7 +11,7 @@
   <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00TD" remote="Tiktodz" revision="los" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="17.1" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="main" clone-depth="1" />
 
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="fajar4561" revision="lineage-17.1-caf-msm8998" clone-depth="1" />
