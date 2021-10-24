@@ -6,8 +6,8 @@
           fetch="https://github.com/Tiktodz" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_corvus" remote="Tiktodz" revision="ten" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus_corvus" remote="Tiktodz" revision="ten" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="sos" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="sos" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
 
 </manifest>
