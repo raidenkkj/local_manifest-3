@@ -3,14 +3,12 @@
 <manifest>
 
   <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-  <remote name="Navin136"
-          fetch="https://github.com/Navin136" />
+        fetch="https://github.com/Tiktodz" />
 
-  <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="MX" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus_X00T" remote="Tiktodz" revision="MX" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
-        <project path="packages/apps/GcamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="Navin136" revision="eleven" clone-depth="1" />
+        <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="flos" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="flos" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="44"/>
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="flos" />
 
 </manifest>
