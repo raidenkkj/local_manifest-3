@@ -4,15 +4,13 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
   <remote name="LineageOS"
           fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="main" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="nad" />
 
         <!-- Hals stuff -->
