@@ -14,9 +14,9 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="fluid" />
 
         <!-- Hals stuff -->
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/audio" />
+        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/media" />
+        <remove-project name="LineageOS/hardware/qcom-caf/msm8998/display" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
