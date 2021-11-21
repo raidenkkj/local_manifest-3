@@ -13,16 +13,6 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="xd" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xd" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="xd" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="main" />
-
-        <remove-project name="hw_media" />
-        <remove-project name="hw_audio" />
-        <remove-project name="hw_display" />
-        <remove-project name="xd_device_qcom_common" />
-        <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project name="android_device_qcom_common" path="device/qcom/common" remote="P-404" revision="rippa" />
-        <project name="proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="P-404" revision="rippa" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
 
 </manifest>
