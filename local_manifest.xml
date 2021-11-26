@@ -7,8 +7,6 @@
         <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
 
-
-
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="ros" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="ros" />
