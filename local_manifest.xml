@@ -4,6 +4,8 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+        <remote name="pkm774"
+        fetch="https://github.com/pkm774" />
         <remote name="jaichiranjeeva"
         fetch="https://github.com/jaichiranjeeva" />
 
@@ -12,7 +14,13 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="sos" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
 
-      <remove-project name="frameworks_base" />
-      <project name="frameworks_base" path="frameworks/base" remote="jaichiranjeeva" revision="fire" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="frameworks_base" />
+        <project name="hardware_qcom-caf_media_msm8998" path="hardware/qcom-caf/msm8998/media" remote="pkm774" groups="qcom" revision="11" />
+        <project name="hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="pkm774" groups="qcom,qcom_audio" revision="audio-hal.lnx.8.0.r14-rel" />
+        <project name="hardware_qcom-caf_display_msm8998" path="hardware/qcom-caf/msm8998/display" remote="pkm774" groups="pdk,qcom,qcom_display" revision="11" />
+        <project name="frameworks_base" path="frameworks/base" remote="jaichiranjeeva" revision="fire" />
 
 </manifest>
