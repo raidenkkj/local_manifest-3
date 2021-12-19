@@ -10,10 +10,10 @@
           fetch="https://github.com/P-404" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="flos" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="flos" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xd" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="xd" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpfnlv"/>
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="flos" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="xd" />
 
         <remove-project name="hw_media" />
         <remove-project name="hw_audio" />
