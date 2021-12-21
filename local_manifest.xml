@@ -6,6 +6,8 @@
         fetch="https://github.com/Tiktodz" />
   <remote name="Kneba"
         fetch="https://github.com/Kneba" />
+  <remote name="project404"
+        fetch="https://github.com/p-404" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xd" />
