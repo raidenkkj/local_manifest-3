@@ -4,8 +4,6 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="crdroidandroid"
-          fetch="https://github.com/crdroidandroid" />
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
 
