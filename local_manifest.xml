@@ -15,8 +15,13 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpflv" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm636-common" remote="Tiktodz" revision="nad" />
 
+        <!-- Proton-Clang v13.0.0 Toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+
         <!-- Sync hals -->
+        <remove-project name="android_hardware_qcom_wlan" />
         <remove-project name="android_frameworks_opt_net_ims" />
         <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="crdroidandroid" revision="12.0" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="crdroidandroid" revision="12.0-caf" />
 
 </manifest>
