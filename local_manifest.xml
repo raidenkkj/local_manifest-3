@@ -8,7 +8,9 @@
           fetch="https://github.com/Kneba" />
   <remote name="crdroidandroid"
           fetch="https://github.com/crdroidandroid" />
-  
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdarg0n" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cipher" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
@@ -16,7 +18,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
         <!-- Sync hals -->
         <remove-project name="android_hardware_qcom_wlan" />
