@@ -29,8 +29,6 @@
 
         <!-- Sync hals -->
         <remove-project name="hardware_qcom_wlan" />
-        <remove-project name="frameworks_opt_net_ims" />
-        <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="crdroidandroid" revision="12.0" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="crdroidandroid" revision="12.0-caf" />
 
 </manifest>
