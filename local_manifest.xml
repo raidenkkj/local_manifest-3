@@ -4,28 +4,11 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="pkm774"
-          fetch="https://github.com/pkm774" />
-  <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="fluid" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="fluid" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="fluid" />
-
-        <remove-project name="hardware/qcom-caf/msm8998/audio" />
-        <remove-project name="hardware/qcom-caf/msm8998/media" />
-        <remove-project name="hardware/qcom-caf/msm8998/display" />
-        <remove-project name="hardware/qcom-caf/thermal" />
-        <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
-        <remove-project name="hardware/qcom-caf/wlan" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" remote="pkm774" revision="11" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" remote="pkm774" revision="11" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="pkm774" revision="11" />
-        <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="pkm774" revision="aosp-new/android11-qpr3-s1-release" />
-        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-18.1" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="LineageOS" revision="lineage-18.1-caf" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
 
 </manifest>
