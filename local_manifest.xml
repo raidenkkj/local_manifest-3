@@ -4,11 +4,17 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
+  <remote name="StatiXOS"
+          fetch="https://github.com/StatiXOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="fluid" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
+
+        <!-- Sync hals -->
+        <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="StatiXOS" revision="sc" />
 
 </manifest>
