@@ -9,6 +9,6 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="posp" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="posp" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="posp" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="lv" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="main" />
 
 </manifest>
