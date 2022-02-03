@@ -16,6 +16,7 @@
         <remove-project name="hw_media" />
         <remove-project name="hw_audio" />
         <remove-project name="hw_display" />
+        <remove-project name="xd_vendor_xdroid" />
         <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
