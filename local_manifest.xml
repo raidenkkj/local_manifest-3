@@ -8,6 +8,8 @@
         fetch="https://github.com/Kneba" />
   <remote name="project404"
         fetch="https://github.com/P-404" />
+  <remote name="AnGgIt88"
+        fetch="https://github.com/AnGgIt88" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="xd" />
@@ -24,5 +26,7 @@
         <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" />
         <project name="proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="project404" revision="rippa" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
+        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 
 </manifest>
