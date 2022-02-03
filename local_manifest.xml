@@ -7,9 +7,7 @@
         <remote name="pranavkapoor001"
         fetch="https://github.com/pranavkapoor001" />
         <remote name="Ruega"
-        fetch="https://github.com/Danish1999" />
-        <remote name="Danish1999"
-        fetch="https://github.com/Danish1999" />
+        fetch="https://github.com/Ruega" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="Device_Asus_X00T" remote="pranavkapoor001" revision="lineage-17.1" />
@@ -19,11 +17,9 @@
         <!-- Remove and HALs -->
         <remove-project name="LineageOS/android_frameworks_base" />
         <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
         <!-- Sync hals -->
         <project name="android_frameworks_base" path="frameworks/base" remote="Ruega" revision="lineage-17.1" />
         <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Ruega" revision="lineage-17.1" />
-        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="Danish1999" revision="lineage-17.1-caf-msm8998" />
 
 </manifest>
