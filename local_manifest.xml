@@ -4,10 +4,6 @@
 
   <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-  <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
-  <remote name="project404"
-        fetch="https://github.com/P-404" />
   <remote name="AnGgIt88"
         fetch="https://github.com/AnGgIt88" />
 
@@ -20,13 +16,9 @@
         <remove-project name="hw_media" />
         <remove-project name="hw_audio" />
         <remove-project name="hw_display" />
-        <remove-project name="xd_device_qcom_common" />
         <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_audio" path="hardware/qcom-caf/msm8998/audio" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
         <project name="hw_display" path="hardware/qcom-caf/msm8998/display" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
-        <project name="android_device_qcom_common" path="device/qcom/common" remote="project404" revision="rippa" />
-        <project name="proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="project404" revision="rippa" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
-        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 
 </manifest>
