@@ -2,17 +2,17 @@
 
 <manifest>
 
-        <remote name="pkm774"
-        fetch="https://github.com/pkm774" />
-        <remote name="pranavkapoor001"
-        fetch="https://github.com/pranavkapoor001" />
+        <remote name="Tiktodz"
+        fetch="https://github.com/Tiktodz" />
+        <remote name="wizardprjkt"
+        fetch="https://github.com/wizardprjkt" />
         <remote name="Ruega"
         fetch="https://github.com/Ruega" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="Device_Asus_X00T" remote="pranavkapoor001" revision="lineage-17.1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="pranavkapoor001" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
+        <project path="device/asus/X00T" name="Device_Asus_X00T" remote="wizardprjkt" revision="10" />
+        <project path="vendor/asus" name="proprietary_vendor_asus_X00T" remote="wizardprjkt" revision="10" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="NLV" />
 
         <!-- Remove and HALs -->
         <remove-project name="LineageOS/android_frameworks_base" />
