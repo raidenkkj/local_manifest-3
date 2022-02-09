@@ -26,8 +26,8 @@
 
         <!-- Sync hals -->
         <remove-project name="hardware_qcom_wlan" />
-        <remove-project name="packages_apps_Bluetooth" />
+        <remove-project name="vendor_qcom_opensource_packages_apps_Bluetooth" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="crdroidandroid" revision="12.0-caf" />
-        <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="crdroidandroid" revision="12.0" />
+        <project path="vendor/qcom-caf/opensource/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroidandroid" revision="12.0" />
 
 </manifest>
