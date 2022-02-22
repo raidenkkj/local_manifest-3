@@ -4,24 +4,22 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="crdroidandroid"
-          fetch="https://github.com/crdroidandroid" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
   
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cipher" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="LV" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="styx" />
+        <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="12" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="posp" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
         <!-- Sync hals -->
-        <remove-project name="android_hardware_qcom_wlan" />
-        <remove-project name="android_frameworks_opt_net_ims" />
-        <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="crdroidandroid" revision="12.0" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="crdroidandroid" revision="12.0-caf" />
+        <remove-project name="bootable_recovery" />
+        <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="sailboat" />
 
 </manifest>
