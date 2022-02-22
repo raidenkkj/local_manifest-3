@@ -19,7 +19,6 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
         <!-- Sync hals -->
-        <remove-project name="bootable_recovery" />
         <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="sailboat" />
 
 </manifest>
