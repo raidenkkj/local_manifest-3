@@ -18,7 +18,10 @@
         <!-- Proton-Clang v13.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
-        <!-- Sync hals -->
+        <!-- Remove -->
+        <remove-project name="platform/bootable/recovery" />
+
+        <!-- Clone stuffs -->
         <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="sailboat" />
 
 </manifest>
