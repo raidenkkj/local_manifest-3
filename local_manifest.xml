@@ -11,5 +11,6 @@
         <project path="device/asus/X00T" name="Device_Asus_X00T" remote="wizardprjkt" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus_X00T" remote="wizardprjkt" revision="10" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="lineage-16.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="ArrowOS-Devices/proton-clang.git" remote="github" revision="arrow-11.0" />
 
 </manifest>
