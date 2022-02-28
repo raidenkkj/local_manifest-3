@@ -14,7 +14,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
 
         <!-- Remove -->
-        <remove-project name="platform/bootable/recovery" />
+        <remove-project name="bootable_recovery" />
 
         <!-- Clone stuffs -->
         <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="12" />
