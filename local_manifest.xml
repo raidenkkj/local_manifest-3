@@ -11,15 +11,13 @@
         fetch="https://github.com/Kneba" />
 
         <!-- Remote GitHub -->
-        <remote name="ArrowOS"
-        fetch="https://github.com/ArrowOS" />
+        <remote name="ATBlastDon"
+        fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="pos" />
-        <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="12" />
+        <project path="vendor/asus" name="vendor_asus" remote="ATBlastDon" revision="AT" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
-
-        <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="ArrowOS" revision="arrow-12.0" />
 
 </manifest>
