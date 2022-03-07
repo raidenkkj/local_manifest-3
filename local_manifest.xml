@@ -14,6 +14,10 @@
         <remote name="ATBlastDon"
         fetch="https://github.com/ATBlastDon" />
 
+        <!-- Remote GitHub -->
+        <remote name="LineageOS"
+        fetch="https://github.com/LineageOS" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cherish" />
         <project path="vendor/asus" name="vendor_asus" remote="ATBlastDon" revision="AT" />
@@ -26,5 +30,8 @@
         <!-- Bootlabe recovery-->
         <remove-project name="android_bootable_recovery" />
         <project path="bootable/recovery" name="android_bootable_recovery" remote="Tiktodz" revision="twelve" />
+
+        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
 
 </manifest>
