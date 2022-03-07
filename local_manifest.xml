@@ -20,6 +20,11 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
+        <!-- Google Camera Go -->
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+
+        <!-- Bootlabe recovery-->
+        <remove-project name="android_bootable_recovery" />
+        <project path="bootable/recovery" name="android_bootable_recovery" remote="Tiktodz" revision="twelve" />
 
 </manifest>
