@@ -14,6 +14,10 @@
         <remote name="ATBlastDon"
         fetch="https://github.com/ATBlastDon" />
 
+        <!-- Remote GitHub -->
+        <remote name="kdrag0n"
+        fetch="https://github.com/kdrag0n" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cherish" />
         <project path="vendor/asus" name="vendor_asus" remote="ATBlastDon" revision="AT" />
@@ -26,5 +30,8 @@
         <!-- Bootlabe recovery-->
         <remove-project name="android_bootable_recovery" />
         <project path="bootable/recovery" name="android_bootable_recovery" remote="Tiktodz" revision="twelve" />
+
+        <!-- Proton-Clang v13.0.0 Toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
