@@ -14,10 +14,6 @@
         <remote name="ATBlastDon"
         fetch="https://github.com/ATBlastDon" />
 
-        <!-- Remote GitHub -->
-        <remote name="LineageOS"
-        fetch="https://github.com/LineageOS" />
-
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cherish" />
         <project path="vendor/asus" name="vendor_asus" remote="ATBlastDon" revision="AT" />
