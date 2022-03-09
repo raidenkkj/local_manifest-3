@@ -13,12 +13,12 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cipher" />
-        <project path="vendor/asus" name="vendor_asus" remote="ATBlastDon" revision="AT" />
+        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
         <!-- Google Camera Go -->
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
