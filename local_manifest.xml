@@ -20,4 +20,7 @@
         <!-- Proton-Clang v13.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
+        <!-- Google Camera Go -->
+        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+
 </manifest>
