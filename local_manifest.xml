@@ -4,7 +4,9 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  
+  <remote name="ATBlastDon"
+          fetch="https://github.com/ATBlastDon" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="komodo" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
@@ -16,5 +18,8 @@
 
         <!-- Clone stuffs -->
         <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="12" />
+
+        <!-- Google Camera Go -->
+        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
 
 </manifest>
