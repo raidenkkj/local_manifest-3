@@ -2,19 +2,17 @@
 
 <manifest>
 
-  <remote name="Tiktodz"
+    <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="kdrag0n"
+    <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
-    <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
     <remote name="ATBlastDon"
           fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="cipher" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="NL" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
