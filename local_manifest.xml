@@ -2,15 +2,18 @@
 
 <manifest>
 
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
-        <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
+  <remote name="ATBlastDon"
+          fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="pe" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="pe" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="pe" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="bpflv" />
+        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="11" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="pe" />
+
+        <!-- Google Camera Go -->
+        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
 
 </manifest>
