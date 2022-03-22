@@ -11,6 +11,6 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="crlos" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="crdlos" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="12" />
-        <project path="device/asus/sdm660-common-1" name="device_asus_sdm660-common" remote="Tiktodz" revision="crdlos" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Tiktodz" revision="crdlos" />
 
 </manifest>
