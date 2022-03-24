@@ -22,6 +22,6 @@
         <remove-project name="platform/bootable/recovery" />
 
         <!-- Clone stuffs -->
-        <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="sailboat" />
+        <project path="bootable/recovery" name="bootable_recovery-1" remote="Tiktodz" revision="sailboat" />
 
 </manifest>
