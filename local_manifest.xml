@@ -10,10 +10,10 @@
           fetch="https://gitlab.com/LeCmnGend" />
   
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="styx" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="lhos" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="12" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Kneba" revision="reqlv" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="twelve" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="12" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
         <!-- Proton-Clang v14.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="LeCmnGend" revision="clang-14" />
