@@ -8,7 +8,7 @@
         <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="los18" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="los" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="los" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_caf" remote="Tiktodz" revision="11" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="18.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
 
 </manifest>
