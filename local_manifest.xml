@@ -4,13 +4,11 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
 
         <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-1" remote="Tiktodz" revision="amy" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="carbon" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="carbon" />
-        <project path="kernel/asus/sdm660" name="Ruega-Kernel-X00T" remote="Kneba" revision="44" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="18.1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="los18" />
 
 </manifest>
