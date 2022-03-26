@@ -4,15 +4,15 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
+  <remote name="Kendras056"
+          fetch="https://github.com/Kendras056" />
   <remote name="LeCmnGend"
           fetch="https://gitlab.com/LeCmnGend" />
   
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="lhos" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="AT" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kneba" revision="12" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="wizard" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
         <!-- Proton-Clang v14.0.0 Toolchain -->
