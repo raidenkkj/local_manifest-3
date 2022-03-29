@@ -4,17 +4,15 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="Kendras056"
-          fetch="https://github.com/Kendras056" />
   <remote name="LeCmnGend"
           fetch="https://gitlab.com/LeCmnGend" />
   <remote name="ATBlastDon"
           fetch="https://gitlab.com/ATBlastDon" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="lhos" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="btlg" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="AT" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="wizard" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
         <!-- Google Camera Go -->
@@ -24,9 +22,9 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="LeCmnGend" revision="clang-14" />
 
         <!-- Remove -->
-        <remove-project name="platform/bootable/recovery" />
+        <--remove-project name="platform/bootable/recovery" /-->
 
         <!-- Clone stuffs -->
-        <project path="bootable/recovery" name="bootable_recovery-1" remote="Tiktodz" revision="sailboat" />
+        <--project path="bootable/recovery" name="bootable_recovery-1" remote="Tiktodz" revision="sailboat" /-->
 
 </manifest>
