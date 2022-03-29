@@ -22,9 +22,9 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="LeCmnGend" revision="clang-14" />
 
         <!-- Remove -->
-        <-- remove-project name="platform/bootable/recovery" /-->
+        <!-- remove-project name="platform/bootable/recovery" /-->
 
         <!-- Clone stuffs -->
-        <-- project path="bootable/recovery" name="bootable_recovery-1" remote="Tiktodz" revision="sailboat" /-->
+        <!-- project path="bootable/recovery" name="bootable_recovery-1" remote="Tiktodz" revision="sailboat" /-->
 
 </manifest>
