@@ -5,15 +5,15 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
   <remote name="LeCmnGend"
-          fetch="https://gitlab.com/LeCmnGend" />
+          fetch="https://github.com/LeCmnGend" />
   <remote name="ATBlastDon"
           fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="btlg" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="AT" />
+        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
         <!-- Google Camera Go -->
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
