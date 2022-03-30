@@ -5,7 +5,7 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
   <remote name="LeCmnGend"
-          fetch="https://github.com/LeCmnGend" />
+          fetch="https://gitlab.com/LeCmnGend" />
   <remote name="ATBlastDon"
           fetch="https://github.com/ATBlastDon" />
 
@@ -16,7 +16,7 @@
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
         <!-- Google Camera Go -->
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+        <!-- project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" /-->
 
         <!-- Proton-Clang v14.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="LeCmnGend" revision="clang-14" />
