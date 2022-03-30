@@ -7,7 +7,7 @@
   <remote name="LeCmnGend"
           fetch="https://gitlab.com/LeCmnGend" />
   <remote name="ATBlastDon"
-          fetch="https://gitlab.com/ATBlastDon" />
+          fetch="https://github.com/ATBlastDon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="btlg" />
