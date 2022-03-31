@@ -2,22 +2,28 @@
 
 <manifest>
 
-  <remote name="Kendras056"
-          fetch="https://github.com/Kendras056" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
 
   <remote name="Nusantara"
           fetch="https://github.com/Nusantara-ROM" />
 
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
+
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="12" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kendras056" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="trash" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kendras056" revision="master" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="blaze" />
+        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
         <!-- Remove Hals -->
         <remove-project name="android_hardware_qcom_wlan" />
 
         <!-- Add Hals -->
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="Nusantara" revision="12.1" />
+
+        <!-- Proton-Clang v13.0.0 Toolchain -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
