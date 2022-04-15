@@ -11,13 +11,10 @@
   <remote name="kdrag0n"
           fetch="https://github.com/kdrag0n" />
 
-  <remote name="D0CT0RFATE"
-          fetch="https://github.com/D0CT0RFATE" />
-
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="12" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="D0CT0RFATE" revision="LV" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="LV" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
