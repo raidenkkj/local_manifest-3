@@ -13,7 +13,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="17.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Danish1999" revision="lineage-17.1" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="17.1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="rr" />
 
         <!-- Remove and HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
