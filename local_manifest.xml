@@ -9,7 +9,7 @@
           fetch="https://github.com/asus-sdm660-devs" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="yaap" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="yaap" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus-sdm660-devs" revision="lineage-19.1" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
