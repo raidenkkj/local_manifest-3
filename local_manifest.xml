@@ -4,10 +4,13 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+        <remote name="Navin136"
+        fetch="https://github.com/Navin136" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="evo" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="evo" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="tpd" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="evox" />
+        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="eleven" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Navin136" revision="uclamp" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="eleven" />
 
 </manifest>
