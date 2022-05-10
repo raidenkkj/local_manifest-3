@@ -8,14 +8,14 @@
         fetch="https://github.com/Danish1999" />
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
-        <remote name="aslenofarid"
-        fetch="https://github.com/aslenofarid" />
+        <remote name="bimoalfarrabi"
+        fetch="https://github.com/bimoalfarrabi" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="10" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-17.1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660-1" remote="Tiktodz" revision="lineage-17.1" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="aslenofarid" revision="lineage-17.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
+        <project path="kernel/asus/sdm660" name="STRIX-X00T" remote="bimoalfarrabi" revision="STRIX-OC" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="rr" />
 
         <!-- Remove and Sync HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
