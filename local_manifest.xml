@@ -12,6 +12,7 @@
         fetch="https://github.com/bimoalfarrabi" />
 
         <!-- Sync trees -->
+        <remove-project name="device/asus/sdm660-common" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
         <project path="kernel/asus/sdm660" name="STRIX-X00T" remote="bimoalfarrabi" revision="STRIX-OC" />
