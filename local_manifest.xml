@@ -4,10 +4,13 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+
         <remote name="Danish1999"
         fetch="https://github.com/Danish1999" />
+
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
+
         <remote name="bimoalfarrabi"
         fetch="https://github.com/bimoalfarrabi" />
 
@@ -16,7 +19,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
         <project path="kernel/asus/sdm660" name="STRIX-X00T" remote="bimoalfarrabi" revision="STRIX-OC" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="rr" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="Q" />
 
         <!-- Remove and Sync HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
