@@ -4,13 +4,11 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <remote name="bimoalfarrabi"
-          fetch="https://github.com/bimoalfarrabi" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="eleven" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="eleven" />
-        <project path="kernel/asus/sdm660" name="STRIX-X00T" remote="bimoalfarrabi" revision="STRIX-OC" />
+        <project path="kernel/asus/sdm660" name="STRIX-X00T" remote="Tiktodz" revision="STRIX-OC" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="eleven" />
 
 </manifest>
