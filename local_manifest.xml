@@ -8,25 +8,10 @@
   <remote name="asus-sdm660-devs"
           fetch="https://github.com/asus-sdm660-devs" />
 
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
-
-  <remote name="PE"
-          fetch="https://github.com/PixelExperience" />
-
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="yaap" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="syb" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus-sdm660-devs" revision="lineage-19.1" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
-
-        <!-- Remove Hals -->
-        <remove-project name="hardware_qcom-caf_wlan" />
-
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-19.1-legacy-um" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="PE" revision="twelve" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="PE" revision="twelve" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="PE" revision="twelve" />
-        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PE" revision="twelve" />
 
 </manifest>
