@@ -22,7 +22,7 @@
 <!-- Display and nightlight fix-->
    <project path="hardware/qcom-caf/msm8998/display"
             name="android_hardware_qcom_display"
-            remote="ian"
+            remote="los"
             revision="lineage-19.1-caf-msm8998"/>
 
 <!-- Audio -->
