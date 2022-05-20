@@ -13,7 +13,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="nad" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="A12" />
 
         <!-- Proton-Clang v13.0.0 Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rasenkai" revision="master" clone-depth="1" />
