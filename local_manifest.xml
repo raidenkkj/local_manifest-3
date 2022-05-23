@@ -5,22 +5,17 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="Danish1999"
-        fetch="https://github.com/Danish1999" />
-
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Danish1999" revision="master" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="tpd" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="Q" />
 
         <!-- Remove and Sync HALs -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="android_vendor_resurrection" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Danish1999" revision="lineage-17.1-caf-msm8998" />
         <project path="vendor/rr" name="android_vendor_resurrection" remote="Kneba" revision="Q" />
 
 </manifest>
