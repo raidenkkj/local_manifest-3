@@ -5,8 +5,8 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
-  <!-- remote name="silicon"
-          fetch="https://github.com/AOSP-Silicon" /-->
+  <remote name="silicon"
+          fetch="https://github.com/AOSP-Silicon" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="corvus" />
@@ -16,7 +16,7 @@
 
         <remove-project name="external_faceunlock" />
         <remove-project name="packages_apps_FaceUnlockService" />
-        <!-- project path="external/faceunlock" name="android_external_faceunlock" remote="silicon" /-->
-        <!-- project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="silicon" /-->
+        <project path="external/faceunlock" name="android_external_faceunlock" remote="silicon" />
+        <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="silicon" />
 
 </manifest>
