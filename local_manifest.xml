@@ -5,10 +5,16 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
+  <remote name="silicon"
+          fetch="https://github.com/AOSP-Silicon" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="corvus" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="corvus" />
+
+       <project path="external/faceunlock" name="android_external_faceunlock" remote="silicon" />
+       <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="silicon" />
 
 </manifest>
