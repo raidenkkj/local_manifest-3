@@ -4,8 +4,8 @@
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
-        <remote name="ancient"
-        fetch="https://github.com/ancient" />
+        <remote name="PixelExperience"
+        fetch="https://github.com/PixelExperience" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="17.1" />
@@ -25,6 +25,6 @@
         <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="lineage-17.1" />
         <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="Tiktodz" revision="lineage-17.1" />
 
-        <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="ancient" revision="ten" />
+        <project path="external/motorola/faceunlock-res" name="external_motorola_faceunlock-res" remote="PixelExperience" revision="ten" />
 
 </manifest>
