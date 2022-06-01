@@ -4,6 +4,8 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
+  <remote name="Dot"
+          fetch="https://github.com/DotOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="dotfe" />
