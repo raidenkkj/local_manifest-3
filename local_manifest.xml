@@ -2,24 +2,14 @@
 
 <manifest>
 
-        <remote name="wizardprjkt"
-        fetch="https://github.com/wizardprjkt" />
+        <remote name="saurabhchardereal"
+        fetch="https://github.com/saurabhchardereal" />
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="Device_Asus_X00T" remote="wizardprjkt" revision="10" />
-        <project path="vendor/asus" name="proprietary_vendor_asus_X00T" remote="wizardprjkt" revision="10" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="saurabhchardereal" revision="lineage-17.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus_X00T" remote="saurabhchardereal" revision="ten" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="dclick" />
-
-        <!-- Remove HALs -->
-        <remove-project name="LineageOS/android_vendor_lineage" />
-        <remove-project name="LineageOS/android_frameworks_base" />
-        <remove-project name="LineageOS/android_packages_apps_Settings" />
-
-        <!-- Sync HALs -->
-        <project name="android_vendor_lineage" path="vendor/lineage" remote="wizardprjkt" revision="lineage-17.1" />
-        <project name="android_frameworks_base" path="frameworks/base" remote="wizardprjkt" revision="lineage-17.1" />
-        <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="wizardprjkt" revision="lineage-17.1" />
 
 </manifest>
