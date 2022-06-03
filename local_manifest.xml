@@ -6,12 +6,12 @@
         fetch="https://github.com/wizardprjkt" />
         <remote name="saurabhchardereal"
         fetch="https://github.com/saurabhchardereal" />
-        <remote name="Tiktodz"
-        fetch="https://github.com/Tiktodz" />
+        <remote name="Rasenkai"
+        fetch="https://github.com/Rasenkai" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T-1" remote="wizardprjkt" revision="lineage-17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="saurabhchardereal" revision="ten" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="10" />
+        <project path="kernel/asus/sdm660" name="kernel_X00TD" remote="Rasenkai" revision="master" />
 
 </manifest>
