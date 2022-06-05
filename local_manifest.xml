@@ -14,13 +14,13 @@
         <!-- Remove HALs -->
         <!-- remove-project name="LineageOS/android_vendor_lineage" /-->
         <!-- remove-project name="LineageOS/android_frameworks_base" /-->
-        <remove-project name="LineageOS/android_packages_apps_Settings" />
+        <!-- remove-project name="LineageOS/android_packages_apps_Settings" /-->
         <!-- remove-project name="LineageOS/android_device_lineage_sepolicy" /-->
 
         <!-- Sync HALs -->
         <!-- project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" /-->
         <!-- project name="android_frameworks_base" path="frameworks/base" remote="Tiktodz" revision="lineage-17.1" /-->
-        <project name="packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="eleven" />
+        <!-- project name="packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="eleven" /-->
         <!-- project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="Tiktodz" revision="lineage-17.1" /-->
 
 </manifest>
