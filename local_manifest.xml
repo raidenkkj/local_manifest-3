@@ -2,15 +2,18 @@
 
 <manifest>
 
-        <remote name="Kendras056"
-        fetch="https://github.com/Kendras056" />
-
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" remote="Kendras056" revision="lineage-17.1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus-1" remote="Kendras056" revision="lineage-17.1" />
+        <project path="device/asus/X00T" name="device_asus_X00TD" remote="Tiktodz" revision="lossd" />
+        <project path="vendor/asus" name="vendor_asus_q" remote="Tiktodz" revision="lossd" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="dclick" />
+
+        <!-- Remove HALs -->
+        <remove-project name="LineageOS/android_vendor_lineage" />
+
+        <!-- Sync HALs -->
+        <project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" />
 
 </manifest>
