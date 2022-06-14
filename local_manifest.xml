@@ -11,12 +11,16 @@
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00TD" remote="Tiktodz" revision="lossd" />
         <project path="vendor/asus" name="vendor_asus_q" remote="Tiktodz" revision="lossd" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660_OldQ" remote="pranavkapoor001" revision="Stardust" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660_OldQ" remote="pranavkapoor001" revision="lineage-17.1" />
 
         <!-- Remove HALs -->
         <remove-project name="LineageOS/android_vendor_lineage" />
+        <remove-project name="LineageOS/android_frameworks_base" />
+        <remove-project name="LineageOS/android_packages_apps_Settings" />
 
         <!-- Sync HALs -->
         <project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" />
+        <project name="android_frameworks_base" path="frameworks/base" remote="Tiktodz" revision="lineage-17.1" />
+        <project name="packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="lineage-17.1" />
 
 </manifest>
