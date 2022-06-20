@@ -21,15 +21,19 @@
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="syb" />
 
         <!-- Remove HALs -->
+<!--
         <remove-project name="platform_hardware_qcom_audio" />
         <remove-project name="platform_hardware_qcom_display" />
         <remove-project name="platform_hardware_qcom_media" />
+-->
         <remove-project name="build/make" />
 
         <!-- Sync HALs -->
+<!--
         <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
         <project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
         <project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+-->
 
         <!-- Toolchains x Sepolicy-legacy-um -->
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="ArrowOS" revision="12.1" />
