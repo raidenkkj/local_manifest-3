@@ -17,6 +17,11 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="syb" />
 
+        <!-- Remove HALs -->
+        <remove-project name="hardware/qcom-caf/msm8998/audio" />
+        <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <remove-project name="hardware/qcom-caf/msm8998/media" />
+
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
