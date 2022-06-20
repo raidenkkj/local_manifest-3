@@ -22,6 +22,11 @@
         <remove-project name="hardware/qcom-caf/msm8998/display" />
         <remove-project name="hardware/qcom-caf/msm8998/media" />
 
+        <!-- Sync HALs -->
+        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+        <project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
+
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
