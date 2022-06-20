@@ -5,22 +5,18 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
-  <remote name="asus-sdm660-devs"
-          fetch="https://github.com/asus-sdm660-devs" />
+  <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
-  <remote name="ian"
-          fetch="https://github.com/iaiaian1" />
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="syb" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="asus-sdm660-devs" revision="lineage-19.1" />
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="main" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="syb" />
 
-<!-- SEPolicy -->
-   <project path="device/qcom/sepolicy-legacy-um"
-            name="device_qcom_sepolicy-legacy-um"
-            remote="ian"
-            revision="twelve"/>
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
