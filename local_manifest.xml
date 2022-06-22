@@ -40,7 +40,6 @@
 <!--
 
         <!-- Build HALs -->
-        <project path="build/make" name="platform_build" remote="mrzeroo21" revision="12.1" />
--->
+        <project path="build/make" name="platform_build" remote="mrzeroo21" revision="12.1" /-->
 
 </manifest>
