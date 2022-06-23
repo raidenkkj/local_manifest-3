@@ -4,8 +4,8 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <!-- remote name="StatiXOS"
-          fetch="https://github.com/StatiXOS" /-->
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="fluid" />
@@ -14,7 +14,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="cipher" />
 
         <!-- Sync hals -->
-        <!-- remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" /-->
-        <!-- project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="StatiXOS" revision="sc" /-->
+        <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-19.1" />
 
 </manifest>
