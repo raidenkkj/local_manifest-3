@@ -17,6 +17,7 @@
 
         <!-- Sync hals -->
         <!-- remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" /-->
+        <remove-project name="packages/apps/FluidCustomisation" />
         <!-- project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-19.1" /-->
         <project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="Project-Fluid" revision="fluid-12.0" />
 
