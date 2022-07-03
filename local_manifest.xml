@@ -11,6 +11,9 @@
         <remote name="D0CT0RFATE"
         fetch="https://github.com/D0CT0RFATE" />
 
+        <remote name="Corvus-R"
+        fetch="https://github.com/Corvus-R" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
@@ -31,5 +34,8 @@
 
         <!-- Google Camera Go -->
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+
+        <!-- Lottie -->
+        <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="Corvus-R" revision="10" />
 
 </manifest>
