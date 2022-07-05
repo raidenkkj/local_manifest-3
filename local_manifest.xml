@@ -8,17 +8,14 @@
         <remote name="ATBlastDon"
         fetch="https://github.com/ATBlastDon" />
 
-        <remote name="D0CT0RFATE"
-        fetch="https://github.com/D0CT0RFATE" />
-
-        <remote name="Corvus-R"
-        fetch="https://github.com/Corvus-R" />
+        <!-- remote name="Corvus-R"
+        fetch="https://github.com/Corvus-R" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="17.1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="rr" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="D0CT0RFATE" revision="wizard" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_Q" remote="Tiktodz" revision="zen" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="Tiktodz" revision="caf" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_Q" remote="Tiktodz" revision="10" />
 
         <!-- Remove HALs -->
         <remove-project name="LineageOS/android_vendor_lineage" />
@@ -36,6 +33,6 @@
         <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
 
         <!-- Lottie -->
-        <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="Corvus-R" revision="10" />
+        <!-- project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="Corvus-R" revision="10" /-->
 
 </manifest>
