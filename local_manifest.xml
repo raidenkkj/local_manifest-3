@@ -17,20 +17,21 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="Tiktodz" revision="caf" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_Q" remote="Tiktodz" revision="10" />
 
+<!--
         <!-- Remove HALs -->
-        <remove-project name="LineageOS/android_vendor_lineage" />
-        <remove-project name="LineageOS/android_frameworks_base" />
-        <remove-project name="LineageOS/android_packages_apps_Settings" />
+        <!-- remove-project name="LineageOS/android_vendor_lineage" /-->
+        <!-- remove-project name="LineageOS/android_frameworks_base" /-->
+        <!-- remove-project name="LineageOS/android_packages_apps_Settings" /-->
         <!-- remove-project name="LineageOS/android_build" /-->
 
         <!-- Sync HALs -->
-        <project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" />
-        <project name="android_frameworks_base" path="frameworks/base" remote="Tiktodz" revision="lineage-17.1" />
-        <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="lineage-17.1" />
+        <!-- project name="android_vendor_lineage" path="vendor/lineage" remote="Tiktodz" revision="lineage-17.1" /-->
+        <!-- project name="android_frameworks_base" path="frameworks/base" remote="Tiktodz" revision="lineage-17.1" /-->
+        <!-- project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Tiktodz" revision="lineage-17.1" /-->
         <!-- project path="build/make" name="android_build" remote="Tiktodz" revision="lineage-17.1" /-->
 
         <!-- Google Camera Go -->
-        <project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" />
+        <!-- project path="packages/apps/GoogleCameraGoEdition" name="packages_apps_GoogleCameraGoEdition" remote="ATBlastDon" revision="eleven" /-->
 
         <!-- Lottie -->
         <!-- project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="Corvus-R" revision="10" /-->
