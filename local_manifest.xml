@@ -5,8 +5,8 @@
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
 
-        <remote name="ATBlastDon"
-        fetch="https://github.com/ATBlastDon" />
+        <!-- remote name="ATBlastDon"
+        fetch="https://github.com/ATBlastDon" /-->
 
         <!-- remote name="Corvus-R"
         fetch="https://github.com/Corvus-R" /-->
