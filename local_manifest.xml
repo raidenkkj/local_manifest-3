@@ -24,7 +24,7 @@
         <!-- remove-project name="hardware/qcom-caf/msm8998/audio" /-->
         <!-- remove-project name="hardware/qcom-caf/msm8998/display" /-->
         <!-- remove-project name="hardware/qcom-caf/msm8998/media" /-->
-        <remove-project name="platform/build" />
+        <remove-project name="build/make" />
 
         <!-- Sync HALs -->
         <!-- project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" /-->
