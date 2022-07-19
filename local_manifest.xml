@@ -17,7 +17,7 @@
         <project path="vendor/asus" name="vendor_asus" remote="dhimanparas20" revision="11" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="Tiktodz" revision="caf" />
 
-        <project name="vendor_packages" path="vendor/packages" remote="Tiktodz" revision="master" />
+        <project name="vendor_packages" path="vendor/packages" remote="dhimanparas20" revision="master" />
         <project name="ZenParts" path="packages/apps/ZenParts" remote="Tiktodz" revision="final" />
         <project name="android_external_airbnb-lottie" path="external/airbnb-lottie" remote="Corvus" revision="11" />
 
