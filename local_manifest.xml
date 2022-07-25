@@ -6,8 +6,8 @@
           fetch="https://github.com/Tiktodz" />
   <!-- remote name="LineageOS"
           fetch="https://github.com/LineageOS" /-->
-  <remote name="Project-Fluid"
-          fetch="https://github.com/Project-Fluid" />
+  <!-- remote name="Project-Fluid"
+          fetch="https://github.com/Project-Fluid" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="fluid" />
@@ -17,8 +17,8 @@
 
         <!-- Sync hals -->
         <!-- remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" /-->
-        <remove-project name="packages_apps_FluidCustomisation" />
+        <!-- remove-project name="packages_apps_FluidCustomisation" /-->
         <!-- project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="LineageOS" revision="lineage-19.1" /-->
-        <project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="Project-Fluid" revision="fluid-12.0" />
+        <!-- project path="packages/apps/FluidCustomisation" name="packages_apps_FluidCustomisation" remote="Project-Fluid" revision="fluid-12.0" /-->
 
 </manifest>
