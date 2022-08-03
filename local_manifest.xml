@@ -5,10 +5,16 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
+  <remote name="Panchajanya1999"
+          fetch="https://gitlab.com/Panchajanya1999" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="spark" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Tiktodz" revision="master" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="spark" />
+
+        <!-- azure clang 15.0.0 -->
+        <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" remote="Panchajanya1999" revision="main" />
 
 </manifest>
