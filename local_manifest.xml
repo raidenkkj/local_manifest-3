@@ -4,13 +4,7 @@
 
   <remote name="me"
           fetch="https://github.com/SKetU-l" />
-
-  <remote name="Kendras056"
-          fetch="https://github.com/Kendras056" />
-
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
-
+ 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="12" />
         <project path="vendor/asus" name="vt" remote="me" revision="master" />
