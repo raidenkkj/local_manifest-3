@@ -11,7 +11,4 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="LV" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
-        <!-- Proton-Clang v13.0.0 Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
-
 </manifest>
