@@ -2,8 +2,8 @@
 
 <manifest>
 
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="me"
+          fetch="https://github.com/SKetU-l" />
 
   <remote name="Kendras056"
           fetch="https://github.com/Kendras056" />
@@ -13,7 +13,7 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Kendras056" revision="12" />
-        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
+        <project path="vendor/asus" name="vt" remote="me" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="LV" />
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="master" />
 
