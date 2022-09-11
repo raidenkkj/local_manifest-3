@@ -4,11 +4,14 @@
 
   <remote name="me"
           fetch="https://github.com/SKetU-l" />
+
+  <remote name="RyuujiX"
+          fetch="https://github.com/RyuujiX" />
  
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="me" revision="blaze" />
         <project path="vendor/asus" name="vt" remote="me" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636-1" remote="Kendras056" revision="LV" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="RyuujiX" revision="r7/hmp" />
         <project path="device/asus/sdm660-common" name="ct" remote="me" revision="master" />
 
 </manifest>
