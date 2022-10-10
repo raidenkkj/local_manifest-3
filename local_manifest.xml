@@ -3,7 +3,7 @@
 <manifest>
 
   <remote name="SKetU-l"
-          fetch="https://github.com/SKetU-l" />
+  fetch="https://github.com/SKetU-l" />
   
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus" remote="SKetU-l" revision="pe" />
