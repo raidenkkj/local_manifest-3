@@ -2,13 +2,15 @@
 
 <manifest>
 
-        <remote name="SKetU-l"
-        fetch="https://github.com/SKetU-l" />
+<!-- Remotes -->
+
+    <remote name="me" fetch="https://github.com/SKetU-l" />
   
-        <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus" remote="SKetU-l" revision="pe" />
-        <project path="vendor/asus" name="vendor_asus" remote="SKetU-l" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="SKetU-l" revision="r7/hmp" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="SKetU-l" revision="T" />
+<!-- Sync trees -->
+
+    <project path="device/asus/X00TD" name="device_asus" remote="me" revision="pe" />
+    <project path="vendor/asus" name="vendor_asus" remote="me" revision="master" />
+    <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="me" revision="r7/hmp" />
+    <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="me" revision="T" />
 
 </manifest>
